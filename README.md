@@ -25,10 +25,15 @@
 ![img](kpo-4.jpg)
 
 Результаты работ выше приведенных программ эквиваленты:
+
 fileFilefileFile -> 2 14 
+
 wcpcpDAIOWHdwdjdjwpajAWDopwadk -> 9 21 
+
 wacpwponnawGPAIENIGwASDOAWpdwpajdawcdpasvvfuz -> 14 31 
+
 AAAAAAAAAAAAAABBBBBBBBBBAAAAABBBBBAABEJKEKDKDKDKFW -> 50 0 
+
 ajdawdjpwodjpoawjfpajfopajfjwfpojfawpjfjpawjfpajvpioevboefhiowhfbopafefiwoiawfbabw0awdhfahwaopwbcawcaowdhaiovnaqpwjofjhawdncioancawcoaowc -> 0 136 
 
 
