@@ -12,7 +12,7 @@ char buffer[buffer_size];
 
 int main(int argc, char **argv) {
 
-    char *fifo_reader = "read_fifo";
+    char *fifo_reader = "read_fifo_3";
     int r_stream = open(fifo_reader, O_WRONLY);
 
     int stream = open(argv[1], O_RDONLY);

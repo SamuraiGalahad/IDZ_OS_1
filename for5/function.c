@@ -11,13 +11,13 @@ int main(int argc, char **argv) {
     const int buffer_size = 5000;
     char buffer[buffer_size];
 
-    char *fifo_reader = "read_fifo";
+    char *fifo_reader = "read_fifo_3";
     int r_stream = open(fifo_reader, O_RDONLY);
 
     int b_stream = read(r_stream, buffer, buffer_size);
 
     close(r_stream);
-    remove(r_stream);
+    remove(fifo_reader);
 
     int big = 0;
     int small = 0;
@@ -40,7 +40,7 @@ int main(int argc, char **argv) {
     
     memcpy(buffer, answer, 2 * sizeof(int));
 
-    char *fifo_fuction = "fifo_a";
+    char *fifo_fuction = "fifo_a_3";
 
     int f_stream = open(fifo_fuction, O_WRONLY);
 

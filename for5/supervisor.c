@@ -22,8 +22,8 @@ int main(int argc, char **argv) {
 
     verifyDocs(argv);
 
-    char *fifo_reader = "read_fifo";
-    char *fifo_fuction = "fifo_a";
+    char *fifo_reader = "read_fifo_3";
+    char *fifo_fuction = "fifo_a_3";
 
     if (mkfifo(fifo_reader, 0777))
     {
@@ -42,12 +42,11 @@ int main(int argc, char **argv) {
     }
     if (fork())
     {
-        execv("./solve.o", argv);
+        execv("./function.o", argv);
     }
     if (fork())
     {
         execv("./writer.o", argv);
     }
     return 0;
-
 }

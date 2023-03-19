@@ -18,13 +18,13 @@ int main(int argc, char **argv) {
     char buffer[buffer_size];
     int answer[2];
 
-    char *fifo_fuction = "fifo_a";
+    char *fifo_fuction = "fifo_a_3";
 
     int f_stream = open(fifo_fuction, O_RDONLY);
 
     ssize_t b_stream = read(f_stream, buffer, buffer_size);
     close(f_stream);
-    remove(f_stream);
+    remove(fifo_fuction);
     
     int stream = open(argv[2], O_WRONLY);
 
